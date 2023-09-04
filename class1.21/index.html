@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toyin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="w-[100vw] h-[100vh] flex items-center bg-black text-white justify-center"
+  >
+    <div class="container shadow-md w-[60vw] h-[60%]">
+      <div
+        id="display"
+        class="screen md:bg-green-300 w-[100%] h-[60%] flex justify-center items-center text-3xl shadow-md border border-white text-white"
+      ></div>
+
+      <div class="btns flex justify-around">
+        <button
+          class="add hover:bg-white hover:text-black cursor pointer border border-white p-3 mt-3"
+        >
+          Add
+        </button>
+        <button
+          class="remove hover:bg-white hover:text-black cursor pointer border border-white p-3 mt-3"
+        >
+          Sub
+        </button>
+        <button
+          class="reset hover:bg-white hover:text-black cursor pointer border border-white p-3 mt-3"
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

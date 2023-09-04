@@ -1,0 +1,13 @@
+const people = ["toyin", "gabriel", "daniel"];
+const racist = ["emma", "michael", "samuel"];
+// people.push("emma");
+const combinedArr = [...people, ...racist];
+// const every = people.concat(racist);
+// console.log(every);
+// console.log(people[3]);
+console.log(combinedArr);
+console.log(combinedArr.length);
+console.log(combinedArr.pop());
+console.log(combinedArr.length);
+console.log(combinedArr.unshift("mumu"));
+console.log(combinedArr.length);

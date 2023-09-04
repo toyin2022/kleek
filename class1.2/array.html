@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>array</title>
+  </head>
+  <body>
+    <script>
+      const students = [
+        { id: 1, name: "toyin", age: 20 },
+        { id: 1, name: "jeff" },
+      ];
+      const array = [
+        "toyin",
+        "jeff",
+        "uche",
+        20,
+        true,
+        {
+          newPerson: "Sulaiman",
+          color: "blue",
+          age: 333,
+        },
+        [343, "mumu"],
+      ];
+      //   console.log(array);
+      console.log(array[2]);
+
+      const newArray = ["sheriff", "seun", 232, { name: "toyinAgain" }];
+      const allArray = [...array, ...newArray, "jisd", [2434]];
+      //   console.log(allArray);
+      //   console.log(allArray[5].newPerson);
+      //   console.log(allArray[5].color);
+      //   console.log(allArray[6][0]);
+      //   console.log(allArray);
+      //   console.log(newArray, array);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Obj</title>
+  </head>
+  <body>
+    <script>
+      const students = ["toyin", "jeff", "uche", "john", "doe"];
+      console.log(students.pop());
+      console.log(students.length);
+      console.log(students.shift());
+      console.log(students.length);
+
+      students.forEach(function (student) {
+        console.log(`my name is ${student}`);
+      });
+
+      const users = [
+        { id: 1, name: "John", email: "john@example.com" },
+        { id: 2, name: "Doe", email: "doe@example.com" },
+        { id: 3, name: "shevi", email: "toyin@example" },
+      ];
+      users.map((user) => {
+        document.write(` <h1>${user.name}</h1> 
+        <p>${user.email}</p>
+         `);
+      });
+    </script>
+  </body>
+</html>
